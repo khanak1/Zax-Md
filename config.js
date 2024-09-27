@@ -5,23 +5,23 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "zaxmd001@gmail.com";
+global.email = "sycoalak786@@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
-global.github = process.env.GITHUB || "https://github.com/Xiangzaoh/Zax-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://iili.io/JgAR7WJ.jpg";
-global.devs = "255688930205";
-global.sudo = process.env.SUDO || "255688930205";
-global.owner = process.env.OWNER_NUMBER || "255688930205";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Pakistan/Islamabad";
+global.github = process.env.GITHUB || "https://github.com/Afzaal-786";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/FCPmEG7I8lkGTHmt8i4EP5";
+global.website = process.env.GURL || "https://chat.whatsapp.com/FCPmEG7I8lkGTHmt8i4EP5";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/Afzaal-786/Alexa/blob/main/20240925_211249.jpg";
+global.devs = "923556159234";
+global.sudo = process.env.SUDO || "923556159234";
+global.owner = process.env.OWNER_NUMBER || "923556159234";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -32,7 +32,7 @@ global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
-global.save_status = process.env.AUTO_SAVE_STATUS || "false";
+global.save_status = process.env.AUTO_SAVE_STATUS || "true";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©zᴀxᴍᴅ",
-  author: process.env.PACK_AUTHER || "zᴀx-ᴍᴅ",
-  packname: process.env.PACK_NAME || "zᴀx-bot",
-  botname: process.env.BOT_NAME || "zᴀx ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "MrXhriss",
+  caption: process.env.CAPTION || "©The'w Khan",
+  author: process.env.PACK_AUTHER || "A&Z-bot",
+  packname: process.env.PACK_NAME || "A&Z-bot",
+  botname: process.env.BOT_NAME || "A&Z-bot",
+  ownername: process.env.OWNER_NAME || "Afzaal_Khan",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -63,8 +63,8 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "zᴀx").toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  LANG: (process.env.THEME || "AZ").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
